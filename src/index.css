@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --font-family: "Outfit", sans-serif;
+  --font-color: hsl(218, 44%, 22%);
+  --font-color-light: hsl(220, 15%, 55%);
+  --bg-color: hsl(212, 45%, 89%);
+  --card-bg-color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+p {
+  color: var(--font-color-light);
+}
+
+h1 {
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
